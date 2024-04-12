@@ -1,0 +1,47 @@
+:root {
+    --font-sans-serif: stolzl, sans-serif;
+    --black: #1A1919;
+    --dark-gray: #737477;
+    --mid-gray: #b6b6b6;
+    --light-gray: #f8f8f8;
+    --white: #FFFFFF;
+    --redbull-red: #DB0840;
+    --dark-navy: #001E3C;
+    --lime-green: #7ED32C;
+    --navy-blue: #002A55;
+    --red: #f30b47;
+
+
+
+
+
+
+
+
+
+}
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  body {
+    font-family: var(--font-sans-serif);
+    font-weight: 300;
+    color:#1A1919;
+    line-height: 1.5;
+  }
+
+  a {
+    font-weight: 400;
+    color:#1A1919;
+    text-decoration: underline var(--mid-gray) 2px;
+  }
+
+  img {
+    display: block;
+  }
