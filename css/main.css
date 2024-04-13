@@ -4,21 +4,13 @@
     --dark-gray: #737477;
     --mid-gray: #b6b6b6;
     --light-gray: #f8f8f8;
+    --xlight-gray: #00162b33;
     --white: #FFFFFF;
     --redbull-red: #DB0840;
     --dark-navy: #001E3C;
     --lime-green: #7ED32C;
     --navy-blue: #002A55;
     --red: #f30b47;
-
-
-
-
-
-
-
-
-
 }
 
 /* apply a natural box layout model to all elements, but allowing components to change */
@@ -28,20 +20,98 @@ html {
   *, *:before, *:after {
     box-sizing: inherit;
   }
+/* typography stuff here */
 
   body {
     font-family: var(--font-sans-serif);
     font-weight: 300;
     color:#1A1919;
-    line-height: 1.5;
+    line-height: 1.75;
+    font-size: 16px;
+    padding: 20px;
+
   }
+
+  .body__large {
+    font-family: var(--font-sans-serif);
+    font-weight: 300;
+    color:#1A1919;
+    line-height: 1.5;
+    font-size: 20px;
+  }
+
+  .body__small {
+    font-family: var(--font-sans-serif);
+    font-weight: 300;
+    color:#1A1919;
+    line-height: 1.5;
+    font-size: 12px;
+  }
+
+  .body__small-eyebrow {
+    position: relative;
+    line-height: 24px;
+    font-family: var(--font-sans-serif);
+    font-weight: 700;
+    color:#1A1919;
+    line-height: 1.5;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 0 0 0 12px;
+    border-left: solid #DB0840 5px;
+  }
+
+  
 
   a {
     font-weight: 400;
     color:#1A1919;
-    text-decoration: underline var(--mid-gray) 2px;
+    text-decoration: underline #00162b33 2px;
+    text-underline-offset: .15em;
   }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    font-weight: 400;
+    color:#1A1919;
+    line-height: 1.2;
+  }
+
+  h1 {
+    font-size: 69px;
+  }
+
+  h2 {
+    font-size: 55px;
+  }
+
+  h3 {
+    font-size: 44px;
+  }
+
+  .button--primary {
+    display: inline-block;
+    background-color: #DB0840;
+    color: white;
+    font-size: 14px;
+    border-radius: 999px;
+    padding: 10px 20px;
+  }
+
 
   img {
     display: block;
+    max-width: 100%;
+  }
+
+  .component img {
+    max-width: initial;
+  }
+
+  .component__img {
+    border: 1px solid #ccc;
+    overflow-x: auto;
   }
