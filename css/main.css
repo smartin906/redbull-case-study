@@ -94,8 +94,18 @@ html {
 
   .button--primary {
     display: inline-block;
-    background-color: #DB0840;
+    background-color: var(--redbull-red);
     color: white;
+    font-size: 14px;
+    border-radius: 999px;
+    padding: 10px 20px;
+  }
+
+  .button--secondary {
+    display: inline-block;
+    background-color: var(--light-gray);
+    color: var(--black);
+    border: 2px solid #e2e3e5;
     font-size: 14px;
     border-radius: 999px;
     padding: 10px 20px;
