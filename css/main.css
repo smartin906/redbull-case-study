@@ -138,15 +138,18 @@ html {
 
   .card--deck {
     display: grid;
-    grid-template-columns: repeat(3, 1fr, minmax(250px, 1fr));
+    position: relative;
+    grid-template-columns: repeat(3, 1fr, minmax(300px, 1fr));
     grid-auto-flow: column;
-    gap: 10px;
+    gap: 20px;
   }
 
+/* card--primary here */
   .card--primary {
     text-align: left;
-    border-radius: 15px;
+    border-radius: 1%;
     border: 1px solid var(--dark-gray);
+    overflow: hidden;
   }
 
   .card--primary_text {
@@ -156,13 +159,6 @@ html {
   .card--primary_text-intro {
     color: var(--dark-gray);
     font-size: 20px;
-
-  }
-
-  .card--primary_img {
-    width: 100%;
-    border-top-left-radius: 1%;
-    border-top-right-radius: 1%;
   }
 
   .card--primary_meta-info {
@@ -183,3 +179,53 @@ html {
     font-weight: 400;
     color: var(--dark-gray);
   }
+
+  .card--primary_img {
+    width: 100%;
+    border-top-left-radius: 1%;
+    border-top-right-radius: 1%;
+  }
+/* card--featured here */
+
+  .card--featured {
+    text-align: left;
+    border-radius: 1%;
+    border: 1px solid var(--dark-gray);
+    overflow: hidden;
+  }
+
+  .card--featured_img {
+    border-radius: 1%;
+    position: relative;
+  }
+
+  .card--featured_text {
+    position: absolute;
+    margin: 5%;
+  }
+
+  .card--featured_text-header {
+    position: relative;
+    color: white;
+    font-size: 44px;
+    z-index: 1;
+  }
+
+  .card--feature_text-category {
+    color: white;
+  }
+
+  .has-bg-img{
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+
+  card__title{ /* Just for styling */
+    align-self: flex-end;
+    padding: 0.5rem;
+    color: rgba(255,255,255,.90);
+    font-size: 2rem;
+    line-height: 1;
+    font-weight: 600;
+}
