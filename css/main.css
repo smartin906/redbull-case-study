@@ -61,6 +61,17 @@ html {
     border-left: solid #DB0840 5px;
   }
 
+  .body__small-eyebrow-rev {
+    position: relative;
+    line-height: 24px;
+    font-family: var(--font-sans-serif);
+    font-weight: 700;
+    color:white;
+    line-height: 1.5;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+
   
 
   a {
@@ -90,6 +101,10 @@ html {
 
   h3 {
     font-size: 44px;
+  }
+
+  .rev {
+    color: white;
   }
 
   .button--primary {
@@ -193,7 +208,7 @@ html {
 
   .featured--card-text {
     position: absolute;
-    bottom: 0;
+    top: 0;
   }
 
   .card--featured {
@@ -323,7 +338,108 @@ html {
     font-weight: lighter
 }
 
-/* page header */
+/* page hero */
 
+.page-hero-info {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    height: 100%;
+    width: 100%;
+    margin: 0 7.5%;
+    padding-right: 20px;
+}
+.page-hero__text {
+    grid-row: 2;
+    align-self: center; 
+    height: 50%;
+}
+
+.page-hero__eyebrow {
+    grid-column: 1;
+    color: white;
+    font-weight: 700;
+    align-self: end;
+}
+
+.page-hero__h2 {
+    grid-column: 1 / 2;
+    color: white;
+    margin: 0 0 30px 0;
+    align-self: stretch;
+}
+
+.page_hero__story {
+    grid-row: 3;
+    grid-column: 1 / 2;
+    align-self: end;
+}
+
+.page-hero__story-blocks {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-gap: 0 20px;
+    position: absolute;
+    bottom: 10px;
+}
+
+.page-hero__story-blocks p {
+    border-top: 2px solid var(--mid-gray);
+    padding-top: 15px;
+    color: var(--mid-gray);
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+}
+
+.page-hero__story-blocks p:hover {
+    border-top: 2px solid var(--redbull-red);
+    padding-top: 15px;
+    color: var(--light-gray);
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+}
+
+/* side bar */
+.sidebar {
+    background-color: var(--xlight-gray);
+}
+
+/* side bar typography*/
+
+.sidebar__title {
+    font-family: var(--font-sans-serif);
+    font-weight: 500;
+    color:#1A1919;
+    line-height: 1.5;
+    font-size: 12px;
+    border-bottom: 1px solid var(--mid-gray);
+    padding-bottom: 10px;
+}
+
+.sidebar__date {
+    font-family: var(--font-sans-serif);
+    font-weight: 500;
+    color:#1A1919;
+    line-height: 1.5;
+    font-size: 12px;
+    border-bottom: 1px solid var(--mid-gray);
+    padding-bottom: 10px;
+}
+
+.event_title {
+    font-family: var(--font-sans-serif);
+    font-weight: 500;
+    color:#1A1919;
+    line-height: 1.5;
+    font-size: 15px;
+}
+
+.sidebar img {
+    width: 10%;
+    background-color: #1A1919;
+    border-radius: 5px;
+}
 
 
