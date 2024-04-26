@@ -158,6 +158,72 @@ img {
     overflow-x: auto;
 }
 
+/* page header styles */
+
+.page-header--background {
+    position: relative;
+    margin: 0px
+}
+
+
+.page-header {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+}
+
+.page-header--left {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    padding-left: 12px;
+}
+
+.page-header--right {
+    justify-self: end;
+}
+
+.page-header__icon {
+    height: 30px;
+    width: 30px;
+    padding-top: 10px;
+    fill: white;
+    margin: 0 10px;
+}
+
+.page-header__logo {
+    height: 36px;
+    width: 225px;
+
+}
+
+/* main nav styles start */
+
+.page-nav { /* container for position only */
+    position: absolute;
+    top: 15px;
+    width: 100%;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #000f1e66;
+    border-radius: 100px;
+    border: 1px solid #fff3;
+    backdrop-filter: blur(20px);
+    padding: 5px 0px;
+    margin: 0 auto;
+}
+
+.main-nav--item {
+    color: white;
+    font-weight: 300;
+    text-decoration: none;
+    text-align: center;
+    margin: 5px 32px;
+}
+
 /* cardy stuff here */
 
 .cards {
@@ -267,73 +333,6 @@ img {
 
 .card--feature_text-category {
     color: white;
-}
-
-/* main nav styles start */
-.page-header--background {
-    position: relative;
-    margin: 0px
-}
-
-.page-nav {
-    /* container for position only */
-    position: absolute;
-    top: 15px;
-    width: 100%;
-}
-
-.page-header {
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-    align-items: center;
-}
-
-.page-header--left {
-    display: grid;
-    grid-template-columns: 25% 75%;
-    padding-left: 12px;
-}
-
-.page-header--right {
-    justify-self: end;
-}
-
-.page-hero--carousel__image {
-    z-index: 0;
-}
-
-.page-header__icon {
-    height: 30px;
-    width: 30px;
-    padding-top: 10px;
-    fill: white;
-    margin: 0 10px;
-}
-
-.page-header__logo {
-    height: 36px;
-    width: 225px;
-
-}
-
-.main-nav {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    background-color: #000f1e66;
-    border-radius: 100px;
-    border: 1px solid #fff3;
-    backdrop-filter: blur(20px);
-    padding: 5px 0px;
-    margin: 0 auto;
-}
-
-.main-nav--item {
-    color: white;
-    font-weight: 300;
-    text-decoration: none;
-    text-align: center;
-    margin: 5px 32px;
 }
 
 /* footer */
