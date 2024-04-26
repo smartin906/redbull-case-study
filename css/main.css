@@ -237,7 +237,6 @@ img {
 .card--primary {
     overflow: hidden;
     background-color: white;
-    border-radius: 2%;
 }
 
 .card--primary_text {
