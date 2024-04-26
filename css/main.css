@@ -218,9 +218,13 @@ img {
 
 /* cardy stuff here */
 
+.cards-bg {
+    background-color: var(--light-gray);
+
+}
+
 .cards {
     margin: 2% 5%;
-    background-color: #7ED32C;
 }
 
 .card--deck {
