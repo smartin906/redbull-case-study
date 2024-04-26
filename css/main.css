@@ -282,6 +282,11 @@ img {
     border-top-right-radius: 10px;
 }
 
+.card--primary_img:hover {
+    width: 110%;
+    height: 110%
+}
+
 .card__button-read-more {
     grid-column: 2;
     align-self: center;
