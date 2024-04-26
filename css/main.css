@@ -33,7 +33,7 @@ body {
     color: #1A1919;
     line-height: 1.75;
     font-size: 16px;
-    background-color: var(--mid-gray);
+    background-color: var(--light-gray);
 }
 
 .body__large {
