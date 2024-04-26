@@ -24,9 +24,6 @@ html {
     box-sizing: inherit;
 }
 
-/* page-nav stuff here */
-
-
 
 /* typography stuff here */
 
@@ -291,6 +288,7 @@ img {
 }
 
 /* card--featured here */
+
 .featured--card {
     position: relative;
 }
