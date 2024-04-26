@@ -33,7 +33,6 @@ body {
     color: #1A1919;
     line-height: 1.75;
     font-size: 16px;
-    background-color: #b6b6b6;
 }
 
 .body__large {
@@ -220,6 +219,7 @@ img {
 
 .cards {
     margin: 2% 5%;
+    background-color: #b6b6b6;
 }
 
 .card--deck {
