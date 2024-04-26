@@ -282,10 +282,6 @@ img {
     border-top-right-radius: 2%;
 }
 
-.card--primary_img:hover {
-    transition: cubic-bezier(2);
-}
-
 .card__button-read-more {
     grid-column: 2;
     align-self: center;
@@ -305,7 +301,6 @@ img {
 
 .card--featured {
     display: grid;
-    grid-template-rows: ;
     text-align: left;
     border-radius: 1%;
     border: 1px solid var(--dark-gray);
