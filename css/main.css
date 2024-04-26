@@ -231,8 +231,8 @@ img {
 
 /* card--primary here */
 .card--primary {
-
     overflow: hidden;
+    background-color: white;
 }
 
 .card--primary_text {
