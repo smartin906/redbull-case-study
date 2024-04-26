@@ -220,7 +220,7 @@ img {
 
 .cards {
     margin: 2% 5%;
-    background-color: var(--mid-gray);
+    background-color: var(--light-gray);
 }
 
 .card--deck {
