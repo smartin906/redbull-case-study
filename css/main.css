@@ -236,7 +236,7 @@ img {
 .card--primary {
     overflow: hidden;
     background-color: white;
-    border-radius: 2%;
+    border-radius: 10px;
 }
 
 .card--primary_text {
@@ -278,8 +278,8 @@ img {
 
 .card--primary_img {
     width: 100%;
-    border-top-left-radius: 2%;
-    border-top-right-radius: 2%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .card__button-read-more {
