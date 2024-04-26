@@ -283,7 +283,7 @@ img {
 }
 
 .card--primary_img:hover {
-    transform: scale(2);
+    transition: width 5s linear .5s;
 }
 
 .card__button-read-more {
