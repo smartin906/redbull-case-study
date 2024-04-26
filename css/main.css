@@ -288,7 +288,8 @@ img {
 }
 
 .card--primary_img:hover {
-    transition: width 5s linear .5s;
+    width: 103%;
+    height: 103;
 }
 
 .card__button-read-more {
