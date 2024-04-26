@@ -272,6 +272,7 @@ img {
 /* main nav styles start */
 .page-header--background {
     position: relative;
+    margin: 0px
 }
 
 .page-nav {
